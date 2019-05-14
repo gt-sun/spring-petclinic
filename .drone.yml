@@ -1,1 +1,10 @@
+kind: pipeline
+name: default
 
+steps:
+- name: frontend
+  image: alpine
+  commands:
+  - hostname
+  - pwd
+  - ls -al
